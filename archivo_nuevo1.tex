@@ -1,0 +1,97 @@
+\batchmode
+\makeatletter
+\def\input@path{{/home/leonardo/gpi//}}
+\makeatother
+\documentclass[spanish]{article}\usepackage{graphicx, color}
+%% maxwidth is the original width if it is less than linewidth
+%% otherwise use linewidth (to make sure the graphics do not exceed the margin)
+\makeatletter
+\def\maxwidth{ %
+  \ifdim\Gin@nat@width>\linewidth
+    \linewidth
+  \else
+    \Gin@nat@width
+  \fi
+}
+\makeatother
+
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\definecolor{fgcolor}{rgb}{0.2, 0.2, 0.2}
+\newcommand{\hlnumber}[1]{\textcolor[rgb]{0,0,0}{#1}}%
+\newcommand{\hlfunctioncall}[1]{\textcolor[rgb]{0.501960784313725,0,0.329411764705882}{\textbf{#1}}}%
+\newcommand{\hlstring}[1]{\textcolor[rgb]{0.6,0.6,1}{#1}}%
+\newcommand{\hlkeyword}[1]{\textcolor[rgb]{0,0,0}{\textbf{#1}}}%
+\newcommand{\hlargument}[1]{\textcolor[rgb]{0.690196078431373,0.250980392156863,0.0196078431372549}{#1}}%
+\newcommand{\hlcomment}[1]{\textcolor[rgb]{0.180392156862745,0.6,0.341176470588235}{#1}}%
+\newcommand{\hlroxygencomment}[1]{\textcolor[rgb]{0.43921568627451,0.47843137254902,0.701960784313725}{#1}}%
+\newcommand{\hlformalargs}[1]{\textcolor[rgb]{0.690196078431373,0.250980392156863,0.0196078431372549}{#1}}%
+\newcommand{\hleqformalargs}[1]{\textcolor[rgb]{0.690196078431373,0.250980392156863,0.0196078431372549}{#1}}%
+\newcommand{\hlassignement}[1]{\textcolor[rgb]{0,0,0}{\textbf{#1}}}%
+\newcommand{\hlpackage}[1]{\textcolor[rgb]{0.588235294117647,0.709803921568627,0.145098039215686}{#1}}%
+\newcommand{\hlslot}[1]{\textit{#1}}%
+\newcommand{\hlsymbol}[1]{\textcolor[rgb]{0,0,0}{#1}}%
+\newcommand{\hlprompt}[1]{\textcolor[rgb]{0.2,0.2,0.2}{#1}}%
+
+\usepackage{framed}
+\makeatletter
+\newenvironment{kframe}{%
+ \def\at@end@of@kframe{}%
+ \ifinner\ifhmode%
+  \def\at@end@of@kframe{\end{minipage}}%
+  \begin{minipage}{\columnwidth}%
+ \fi\fi%
+ \def\FrameCommand##1{\hskip\@totalleftmargin \hskip-\fboxsep
+ \colorbox{shadecolor}{##1}\hskip-\fboxsep
+     % There is no \\@totalrightmargin, so:
+     \hskip-\linewidth \hskip-\@totalleftmargin \hskip\columnwidth}%
+ \MakeFramed {\advance\hsize-\width
+   \@totalleftmargin\z@ \linewidth\hsize
+   \@setminipage}}%
+ {\par\unskip\endMakeFramed%
+ \at@end@of@kframe}
+\makeatother
+
+\definecolor{shadecolor}{rgb}{.97, .97, .97}
+\definecolor{messagecolor}{rgb}{0, 0, 0}
+\definecolor{warningcolor}{rgb}{1, 0, 1}
+\definecolor{errorcolor}{rgb}{1, 0, 0}
+\newenvironment{knitrout}{}{} % an empty environment to be redefined in TeX
+
+\usepackage{alltt}
+\usepackage[T1]{fontenc}
+\usepackage[latin9]{inputenc}
+\usepackage{babel}
+\addto\shorthandsspanish{\spanishdeactivate{~<>}}
+
+\begin{document}
+asdsds
+
+\begin{knitrout}
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+X <- \hlfunctioncall{rnorm}(100, 0, 1)
+X
+\end{alltt}
+\begin{verbatim}
+##   [1] -1.144699  0.028860  1.110601 -3.148206  0.614880 -0.560015  0.329391
+##   [8]  0.352014 -0.077920 -2.721420  0.125734 -3.044592  0.197591  0.329932
+##  [15]  1.669964 -1.074993 -0.349074  0.239035  0.179911 -0.378866  1.204093
+##  [22]  1.140186  0.993496 -0.986017 -0.976731  1.840611 -1.265788 -0.984894
+##  [29]  1.755923 -0.133158  1.260557  0.879461 -0.406095 -0.503820  0.271950
+##  [36]  1.136494  1.097307  0.389890  0.988747 -1.526592 -0.865351 -0.059921
+##  [43]  0.395395 -0.963175  1.432370  0.541066  0.740211  0.911933 -0.364512
+##  [50] -0.103983 -1.509520 -0.250856 -1.048553  0.874011  0.499662 -1.058312
+##  [57] -0.531117 -1.506888  0.065883  0.846766 -0.202591 -1.554854  0.666686
+##  [64] -0.556336  1.394505 -1.660918 -0.119711  0.063618 -1.109257  0.697121
+##  [71]  0.465359  0.388657  1.006223  0.890331 -0.500448  0.204077  0.006262
+##  [78] -0.023582 -0.173524 -0.824227 -0.352592 -1.080230 -0.581046 -0.412142
+##  [85] -1.340951  0.770154  2.701125 -0.110853 -0.091599 -1.141076 -1.335020
+##  [92]  0.879964  0.339607  0.948429  0.006470 -0.563624 -0.201628 -0.874756
+##  [99] -0.025727 -0.353237
+\end{verbatim}
+\end{kframe}
+\end{knitrout}
+
+
+\selectlanguage{spanish}%
+y con un gr

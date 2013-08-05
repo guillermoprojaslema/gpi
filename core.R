@@ -22,11 +22,14 @@ plot(h)
 XY = df[,c(19, 22, 25, 52)]
 PT = df[,c(15, 28, 46, 47, 49)]
 
+# dibujo
+par(mfcol=c(1,3))
 #clasificacion a priori que se contrastará con la clasificacion del modelo
 xyh = hclust(dist(XY), method="ward", members=NULL)
+plot(xyh, main= "clasificación XY")
 pth = hclust(dist(PT), method="ward", members=NULL)
-
+plot(pth, main= "clasificación PT")
 XYPT = df[,c(19, 22, 25, 52, 15, 28, 46, 47, 49)]
 xypth = hclust(dist(XYPT), method="ward", members=NULL)
-plot(xypth)
+plot(xypth, main= "clasificacion X/Y-P/T")
 
