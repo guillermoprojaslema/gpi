@@ -111,26 +111,6 @@ Introducción
 Introducción.
 \end_layout
 
-\begin_layout Enumerate
-Introducción.
-\end_layout
-
-\begin_layout Enumerate
-Objetivos.
-\end_layout
-
-\begin_layout Enumerate
-Moldeando la solución.
-\end_layout
-
-\begin_layout Enumerate
-Conclusión.
-\end_layout
-
-\begin_layout BeginFrame
-Introducción.
-\end_layout
-
 \begin_layout Itemize
 Hoy en día, es de vital importancia, crear en las organizaciones de personas,
  el mejor clima de ambiente posible, para maximizar la productividad.
@@ -144,6 +124,61 @@ Se establecieron 3 criterios básicos distinguibles en cualquier entidad
  organizacional.
  Los habilidades, las necesidades y las competencias de cada individuo en
  particular.
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout Section
+Objetivos.
+\end_layout
+
+\begin_layout BeginFrame
+Objetivos.
+\end_layout
+
+\begin_layout Itemize
+Reconocer patrones conductuales de necesidades, habilidades, y competencias.
+\end_layout
+
+\begin_layout Itemize
+Poder estimar a través de un sistema inteligente, dónde ubicar a los sujetos
+ de prueba en una organización
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout Section
+La organización.
+\end_layout
+
+\begin_layout BeginFrame
+Título.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Explica con BUENA ORTOGRAFÍA, como se compone una organización y alguna
+ foto
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout Section
+Definiciones
 \end_layout
 
 \begin_layout BeginFrame
@@ -262,81 +297,21 @@ f.
 
 \end_layout
 
-\begin_layout BeginFrame
-Historia
-\end_layout
-
-\begin_layout Standard
-Era una tarde soleada en Grecia ...
-\end_layout
-
-\begin_layout Standard
-\begin_inset Graphics
-	filename ../../Git/software-utem/tareas/tarea 5/it was a warm .jpg
-	width 100text%
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout BeginFrame
-Historia.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Graphics
-	filename ../../Git/software-utem/tareas/tarea 5/1.jpeg
-	lyxscale 20
-	scale 20
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout EndFrame
-
-\end_layout
-
-\begin_layout BeginFrame
-Historia.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Graphics
-	filename ../../Git/software-utem/tareas/tarea 5/2.jpeg
-	lyxscale 20
-	scale 20
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout EndFrame
-
-\end_layout
-
 \begin_layout Section
-Marco teórico
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Nombre del algoritmo
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout BeginFrame
-Marco Teórico.
-\end_layout
-
-\begin_layout Itemize
-Cuando apareció la programación Orientada a Objetos (OO) en el desarrollo
- de software, tuvo un efecto dramático en cómo se desarrollaba éste.
- 
-\end_layout
-
-\begin_layout Itemize
-Los desarrolladores podían visualizar sistemas como grupos de entidades
- y la interacción entre esas entidades, lo que les permitía realizar sistemas
- más grandes y más complicados y desarrollarlos en mucho menos tiempo.
- 
+Título.
 \end_layout
 
 \begin_layout Standard
@@ -344,97 +319,7 @@ Los desarrolladores podían visualizar sistemas como grupos de entidades
 status open
 
 \begin_layout Plain Layout
-El único problema con la programación OO es que es esencialmente estática,
- y un cambio en los requerimientos puede tener un profundo impacto en el
- tiempo de desarrollo.
- (Falso, para eso existen los patrones de diseño)
-\end_layout
-
-\end_inset
-
-
-\begin_inset Note Note
-status collapsed
-
-\begin_layout EndFrame
-
-\end_layout
-
-\begin_layout BeginFrame
-Marco teórico.
-\end_layout
-
-\begin_layout FrameSubtitle
-Ejemplo introductorio
-\end_layout
-
-\begin_layout Itemize
-Consideremos un ejemplo: muchos de nosotros hemos desarrollado una sencilla
- aplicación web que utilice servlets como punto de entrada, donde un servlet
- acepta los valores de un formulario HTML, los une a un objeto, lo pasa
- a la aplicación para procesarlo y luego devuelve una respuesta al usuario.
- La primera versión del servlet podría ser muy simple, con la cantidad de
- código mínima necesaria para cumplir el papel que va a desempeñar.
- 
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Sin embargo, el código se infla tres o cuatro veces su tamaño original debido
- a los requerimientos secundarios como el manejo de excepciones, la seguridad,
- y el logging que se han implementado.
- Utilizo el término requerimientos secundarios porque un servlet no debería
- saber nada sobre el loggin o los mecanismos de seguridad que se van a utilizar;
- su función principal es aceptar una entrada y procesarla
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout EndFrame
-
-\end_layout
-
-\begin_layout BeginFrame
-Marco teórico.
-\end_layout
-
-\begin_layout FrameSubtitle
-Servlets
-\end_layout
-
-\begin_layout Itemize
-Los Servlet son la respuesta de la tecnología en Java a la programación
- de la Interfaz de Compuerta Común (CGI).
- 
-\end_layout
-
-\begin_layout Itemize
-Son programas que se ejecutan en el servidor, realizando la función de una
- capa intermedia entre una petición proveniente de un navegador Web u otro
- cliente HTTP, y las aplicaciones del servidor, pudiendo utilizar toda la
- paquetería y potencialidades del lenguaje.
- 
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Su función principal es proveer páginas web dinámicas y personalizadas,
- utilizando para este objetivo el accesos a bases de datos, flujos de trabajo
- y otros recursos.
-\end_layout
-
-\end_inset
-
-
+Explicación de algoritmo
 \end_layout
 
 \end_inset
@@ -447,65 +332,11 @@ Su función principal es proveer páginas web dinámicas y personalizadas,
 \end_layout
 
 \begin_layout Section
-Qué es el POA
+Resultados
 \end_layout
 
 \begin_layout BeginFrame
-Qué es POA.
-\end_layout
-
-\begin_layout Itemize
-La POA es un paradigma que pretende dar solución a las tareas o eventos
- repetitivos que pueden, en un momento dado, retrasar la construcción de
- un software.
-\end_layout
-
-\begin_layout Itemize
-La POA es un desarrollo que sigue a la POO, y como tal, soporta la descomposició
-n orientada a objetos, además de la procedimental y la funcional.
- 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Sin embargo, la programación orientada a aspectos no es una extensión de
- la POO, ya que puede utilizarse con los diferentes estilos de programación.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout EndFrame
-
-\end_layout
-
-\begin_layout Section
-Objetivos
-\end_layout
-
-\begin_layout BeginFrame
-Objetivos de POA.
-\end_layout
-
-\begin_layout Standard
-Entre los principales objetivos de la Programación Orientada a Aspectos
- tenemos:
-\end_layout
-
-\begin_layout Itemize
-Separar las funcionalidades comunes utilizadas en toda la aplicación como:
- algunos eventos, validaciones, mensajes, etc.
-\end_layout
-
-\begin_layout Itemize
-Separar las funcionalidades propias de cada modulo que no hacen parte de
- las anteriores.
-\end_layout
-
-\begin_layout Pause
-
+Título.
 \end_layout
 
 \begin_layout Standard
@@ -513,9 +344,7 @@ Separar las funcionalidades propias de cada modulo que no hacen parte de
 status open
 
 \begin_layout Plain Layout
-Como por ejemplo el calculo de alguna formula en un modulo especifico o
- lo que se podría llamar las reglas del negocio o la capa BL, por su nombre
- en ingles.
+Fotos de los resultados
 \end_layout
 
 \end_inset
@@ -527,424 +356,20 @@ Como por ejemplo el calculo de alguna formula en un modulo especifico o
 
 \end_layout
 
-\begin_layout Section
-Definiciones
-\end_layout
-
 \begin_layout BeginFrame
-Definiciones básicas.
-\end_layout
-
-\begin_layout FrameSubtitle
-Aspect y Join Point
-\end_layout
-
-\begin_layout Definition
-Aspecto
-\end_layout
-
-\begin_layout Definition
-es una funcionalidad transversal (cross-cutting) que se va a implementar
- de forma modular y separada del resto del sistema.
-\end_layout
-
-\begin_layout Example
-Loggin, gestión de memoria, planificación de procesos y todas las condiciones
- deseables que sean transversales y que no sean parte de la funcionalidad
- misma del sistema que de abarcase desde el paradigma orientado a objetos
- diseminarian el código.
-\end_layout
-
-\begin_layout EndFrame
-
-\end_layout
-
-\begin_layout BeginFrame
-Definiciones básicas.
-\end_layout
-
-\begin_layout FrameSubtitle
-Aspect y Join Point
-\end_layout
-
-\begin_layout Definition
-Join point (Punto de Cruce o de Unión) es un punto de ejecución dentro del
- sistema donde un aspecto puede ser conectado, como una llamada a un método,
- el lanzamiento de una excepción o la modificación de un campo.
- El código del aspecto será insertado en el flujo de ejecución de la aplicación
- para añadir su funcionalidad.
- 
-\end_layout
-
-\begin_layout EndFrame
-
-\end_layout
-
-\begin_layout BeginFrame
-Definiciones básicas.
-\end_layout
-
-\begin_layout FrameSubtitle
-Advice y Pointcut
-\end_layout
-
-\begin_layout Definition
-Advice (Consejo) es la implementación del aspecto, es decir, contiene el
- código que implementa la nueva funcionalidad.
- Se insertan en la aplicación en los Puntos de Cruce.
- 
-\end_layout
-
-\begin_layout Pause
-
-\end_layout
-
-\begin_layout Definition
-Pointcut (Puntos de Corte) define los Consejos que se aplicarán a cada Punto
- de Cruce.
- Se especifica mediante Expresiones Regulares o mediante patrones de nombres
- (de clases, métodos o campos), e incluso dinámicamente en tiempo de ejecución
- según el valor de ciertos parámetros.
- 
-\end_layout
-
-\begin_layout EndFrame
-
-\end_layout
-
-\begin_layout BeginFrame
-Definiciones básicas.
-\end_layout
-
-\begin_layout FrameSubtitle
-Introduction y Target.
-\end_layout
-
-\begin_layout Definition
-Introduction (Introducción) permite añadir métodos o atributos a clases
- ya existentes.
- 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Un ejemplo en el que resultaría útil es la creación de un Consejo de Auditoría
- que mantenga la fecha de la última modificación de un objeto, mediante
- una variable y un método setUltimaModificacion(fecha), que podrían ser
- introducidos en todas las clases (o sólo en algunas) para proporcionarles
- esta nueva funcionalidad.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Pause
-
-\end_layout
-
-\begin_layout Definition
-Target (Destinatario) es la clase aconsejada, la clase que es objeto de
- un consejo.
- Sin AOP, esta clase debería contener su lógica, además de la lógica del
- aspecto.
- 
-\end_layout
-
-\begin_layout EndFrame
-
-\end_layout
-
-\begin_layout BeginFrame
-Definiciones básicas.
-\end_layout
-
-\begin_layout FrameSubtitle
-Proxy.
-\end_layout
-
-\begin_layout Definition
-Proxy (Resultante) es el objeto creado después de aplicar el Consejo al
- Objeto Destinatario.
- El resto de la aplicación únicamente tendrá que soportar al Objeto Destinatario
- (pre-AOP) y no al Objeto Resultante (post-AOP).
- 
-\end_layout
-
-\begin_layout EndFrame
-
-\end_layout
-
-\begin_layout BeginFrame
-Definiciones básicas.
-\end_layout
-
-\begin_layout FrameSubtitle
-Weaving.
-\end_layout
-
-\begin_layout Definition
-Weaving (Tejido) es el proceso de aplicar Aspectos a los Objetos Destinatarios
- para crear los nuevos Objetos Resultantes en los especificados Puntos de
- Cruce.
- Este proceso puede ocurrir a lo largo del ciclo de vida del Objeto Destinatario
-: 
-\end_layout
-
-\begin_layout Enumerate
-Aspectos en Tiempo de Compilación, que necesita un compilador especial.
-\end_layout
-
-\begin_layout Enumerate
-Aspectos en Tiempo de Carga, los Aspectos se implementan cuando el Objeto
- Destinatario es cargado.
- Requiere un ClassLoader especial.
- 
-\end_layout
-
-\begin_layout Enumerate
-Aspectos en Tiempo de Ejecución.
- 
-\end_layout
-
-\begin_layout EndFrame
 
 \end_layout
 
 \begin_layout Section
-Fundamentos
-\end_layout
-
-\begin_layout BeginFrame
-Fundamentos de la POA.
-\end_layout
-
-\begin_layout Standard
-Los tres principales fundamentos de la POA son: 
-\end_layout
-
-\begin_layout Itemize
-Un lenguaje para definir la funcionalidad básica, conocido como lenguaje
- base o componentes.
- Podria ser un lenguaje imperativo (C++, Java, PHP, Python, etc), o un lenguaje
- no imperativo o funcional (ML, Haskell, Lisp, Miranda).
-\end_layout
-
-\begin_layout Itemize
-Uno o varios lenguajes de aspectos, para especificar el comportamiento de
- los aspectos.
- (COOL, para sincronización.
- RIDL, para distribución.
- AspectJ, de proposito general.)
-\end_layout
-
-\begin_layout Itemize
-Un tejedor de aspectos (Weaver), que se encarga de combinar los lenguajes.
- Tal proceso se puede retrasar para hacer un tiempo de ejecucion o un tiempo
- de compilacion.
-\end_layout
-
-\begin_layout EndFrame
-
-\end_layout
-
-\begin_layout Section
-Diferenciación
-\end_layout
-
-\begin_layout BeginFrame
-Diferenciación.
-\end_layout
-
-\begin_layout Itemize
-En una primera impresión, la programación orientada a aspectos y la programación
- orientada a objetos pareciera que son en realidad el mismo paradigma, no
- obstante, esta noción es errónea.
- 
-\end_layout
-
-\begin_layout Pause
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-En la programación orientada a objetos los sistemas se modelan como un conjunto
- de objetos que interactúan entre sÌ, sin embargo, falla al modelar los
- conceptos que se entrecruzan.
- La diferencia radica en que mientras la programación orientada a aspectos
- se enfoca en los conceptos que se entrecruzan, la programación orientada
- a objetos se enfoca en los conceptos comunes.
- 
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout EndFrame
-
-\end_layout
-
-\begin_layout Section
-Ejemplo
-\end_layout
-
-\begin_layout BeginFrame
-Ejemplo.
-\end_layout
-
-\begin_layout EndFrame
-
-\end_layout
-
-\begin_layout Section
-Ventajas
-\end_layout
-
-\begin_layout BeginFrame
-Ventajas.
-\end_layout
-
-\begin_layout Itemize
-Permite una implementación modularizada reduciendo el acoplamiento entre
- sus partes.
- 
-\end_layout
-
-\begin_layout Itemize
-El código es más limpio, menos duplicado, más fácil de entender y de mantener.
- 
-\end_layout
-
-\begin_layout Itemize
-Elimina los problemas causados por el código mezclado y el código diseminado.
- 
-\end_layout
-
-\begin_layout EndFrame
-
-\end_layout
-
-\begin_layout BeginFrame
-Ventajas.
-\end_layout
-
-\begin_layout Itemize
-Mayor reutilización, los aspectos tienen mayores probabilidades de ser reutiliza
-dos en otros sistemas con requerimientos similares.
- 
-\end_layout
-
-\begin_layout Itemize
-Los sistemas son más adaptables a cambios, la separación de conceptos permite
- agregar nuevos aspectos, modificarlos o removerlos fácilmente.
- 
-\end_layout
-
-\begin_layout EndFrame
-
-\end_layout
-
-\begin_layout Section
-Desventajas
-\end_layout
-
-\begin_layout BeginFrame
-Desventajas.
-\end_layout
-
-\begin_layout Itemize
-Posibles choques entre el código funcional (expresado en el lenguaje base)
- y el código de aspectos (expresados en los lenguajes de aspectos).
- 
-\end_layout
-
-\begin_layout Itemize
-Posibles choques entre el código de aspectos y los mecanismos del lenguaje,
- uno de los ejemplos más conocidos de este problema es la anomalía de herencia.
-\end_layout
-
-\begin_layout EndFrame
-
-\end_layout
-
-\begin_layout BeginFrame
-Desventajas.
-\end_layout
-
-\begin_layout Itemize
-Posibles choques entre los aspectos, un ejemplo clásico es tener dos aspectos
- que trabajan perfectamente por separado pero al aplicarlos conjuntamente
- resultan en un comportamiento anormal.
-\end_layout
-
-\begin_layout Itemize
-Los lenguajes orientados a aspectos actuales no cuentan con mecanismos lingüísti
-cos suficientemente poderosos para respetar por completo todos los principios
- de diseño, como por ejemplo, el encapsulamiento.
- 
-\end_layout
-
-\begin_layout EndFrame
-
-\end_layout
-
-\begin_layout Section
-Conclusiones
+Conclusiones.
 \end_layout
 
 \begin_layout BeginFrame
 Conclusiones.
 \end_layout
 
-\begin_layout Itemize
-La programación orientada a aspectos es un nuevo paradigma que adolece de
- madurez y formalidad, necesita ser desarrollada más exhaustivamente aun
- para consolidar sus conceptos.
- 
-\end_layout
-
-\begin_layout Itemize
-Separa las funcionalidades transversales con las funcionalidades particulares.
-\end_layout
-
-\begin_layout Itemize
-La programación orientada a aspectos es el comienzo de un nuevo paradigma,
- apenas se esta descubriendo su potencialidad, sus problemas, y sus posibles
- soluciones.
- 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-lo que nos hace pensar que es una de las ramas con mayor futuro dentro de
- la ingeniería de software.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Los lenguajes orientados a aspectos actuales, no cuentan con mecanismos
- lingüísticos suficientemente poderosos para respetar por completo todos
- los principios de diseño.
- 
-\end_layout
-
 \begin_layout EndFrame
 
-\end_layout
-
-\begin_layout BeginFrame
-Ejemplo.
 \end_layout
 
 \begin_layout Section
@@ -962,37 +387,7 @@ key "key-1"
 
 \end_inset
 
-http://www.mindmeister.com/es/35913742/programaci-n-orientada-a-aspectos
-\end_layout
 
-\begin_layout Bibliography
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-key "key-2"
-
-\end_inset
-
-http://www.apuntesdejava.com/2008/06/aop-programacion-orientada-aspectos-con.html
-\end_layout
-
-\begin_layout Bibliography
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-key "key-3"
-
-\end_inset
-
-http://www.slideshare.net/wfranck/programacin-orientada-a-aspectos-poa
-\end_layout
-
-\begin_layout Bibliography
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-key "key-4"
-
-\end_inset
-
-http://es.wikipedia.org/wiki/Programaci%C3%B3n_orientada_a_aspectos
 \end_layout
 
 \begin_layout EndFrame
