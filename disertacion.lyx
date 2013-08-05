@@ -111,19 +111,8 @@ Introducción
 Introducción.
 \end_layout
 
-\begin_layout Itemize
-Hoy en día, es de vital importancia, crear en las organizaciones de personas,
- el mejor clima de ambiente posible, para maximizar la productividad.
- Esto no fue ajeno de estudio de psicólogos laborales, ya que vieron un
- tremendo potencial en sus estudios.
- 
-\end_layout
-
-\begin_layout Itemize
-Se establecieron 3 criterios básicos distinguibles en cualquier entidad
- organizacional.
- Los habilidades, las necesidades y las competencias de cada individuo en
- particular.
+\begin_layout Standard
+Se muestra un algoritmo de clasificación de comportamientos.
 \end_layout
 
 \begin_layout EndFrame
@@ -139,12 +128,12 @@ Objetivos.
 \end_layout
 
 \begin_layout Itemize
-Reconocer patrones conductuales de necesidades, habilidades, y competencias.
+Reconocer patrones perfiles de comportamiento.
 \end_layout
 
 \begin_layout Itemize
-Poder estimar a través de un sistema inteligente, dónde ubicar a los sujetos
- de prueba en una organización
+Poder estimar a través de un sistema inteligente (implementado en R) , dónde
+ clasificar en función del comportamiento.
 \end_layout
 
 \begin_layout EndFrame
@@ -152,7 +141,7 @@ Poder estimar a través de un sistema inteligente, dónde ubicar a los sujetos
 \end_layout
 
 \begin_layout Section
-La organización.
+Definiciones
 \end_layout
 
 \begin_layout BeginFrame
@@ -166,26 +155,7 @@ Organización.
 
 \begin_layout Standard
 Es un sistema de actividades conscientemente coordinadas formado por dos
- o más personas; la cooperación entre ellas es esencial para la existencia
- de la organización.
- Una organización sólo existe cuando hay personas capaces de comunicarse
- y que están dispuestas a actuar conjuntamente para obtener un objetivo
- común.
- Es un conjunto de cargos con reglas y normas de comportamiento que han
- de respetar todos sus miembros, y así generar el medio que permite la acción
- de una empresa.
- La organización es el acto de disponer y coordinar los recursos disponibles
- (materiales, humanos y financieros).
- Funciona mediante normas y bases de datos que han sido dispuestas para
- estos propósitos.
-\end_layout
-
-\begin_layout EndFrame
-
-\end_layout
-
-\begin_layout Section
-Definiciones
+ o más personas con un objetivo común.
 \end_layout
 
 \begin_layout BeginFrame
@@ -318,30 +288,16 @@ Nombre del algoritmo
 \end_layout
 
 \begin_layout BeginFrame
-Título.
+Implementación del software.
 \end_layout
 
 \begin_layout Standard
-En este algoritmo primeramente tomamos a las personas y las agrupamos en
- grupos de tipo X/Y y en grupos P/T según como hallan respondido a las preguntas
- especificas respecto a este tema, obteniendo así dos grupos, uno con los
- resultados X/Y y otro de tipo P/T.
+En este algoritmo toma a la muestra y las agrupamos de tipo X/Y y P/T separadame
+nte según las respuestas de la encuesta, obteniendo así dos grupos, uno
+ con los resultados X/Y y otro de tipo P/T.
  Finalmente realizamos un cruzamiento de datos con los dos grupos obtenidos
  anteriormente resultando así un solo diagrama que separa a las personas
  en cuatro grupos distintos (XP, XT, YP,YT).
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Explicación de algoritmo
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout EndFrame
@@ -374,7 +330,7 @@ Fotos de los resultados
 \end_layout
 
 \begin_layout Section
-Conclusiones.
+Conclusiones.ubicar a los sujetos de prueba en una organización
 \end_layout
 
 \begin_layout BeginFrame
@@ -382,12 +338,13 @@ Conclusiones.
 \end_layout
 
 \begin_layout Standard
-En conclusión podemos decir que con el algoritmo podemos ver claramente
- cuales son los grandes rasgos de las personas que contestaron aun si algunas
- de estas no respondieron correctamente, debido a que con este algoritmo
- las personas que si respondieron correctamente anulan las respuestas incorrecta
-s así pudiendo poder ubicar las personas correctamente en sus grupos correspondi
-entes.
+Mediante un clustering jerárquico Con una inspección visual se pueden identifica
+r primero los grupos del tipo XY.
+ segundo, con los datos correspondientes al tipo PT.
+\end_layout
+
+\begin_layout Standard
+finalmente los grupos XP, XT, YP, YT.
 \end_layout
 
 \begin_layout EndFrame
@@ -395,21 +352,19 @@ entes.
 \end_layout
 
 \begin_layout Section
-Bibliografía.
+Bibliografía
 \end_layout
 
-\begin_layout BeginFrame
-Bibliografía.
+\begin_layout Enumerate
+Apuntes de curso de Gestión de personal informático
 \end_layout
 
-\begin_layout Bibliography
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-key "key-1"
+\begin_layout Enumerate
+Finding groups in data an introduction to clustering analisys (Leonard Kauffman)
+\end_layout
 
-\end_inset
-
-
+\begin_layout Enumerate
+El lenguaje de programación R (manual de usuario)
 \end_layout
 
 \begin_layout EndFrame
