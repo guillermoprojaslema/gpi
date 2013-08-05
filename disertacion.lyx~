@@ -159,10 +159,15 @@ La organización.
 Organización.
 \end_layout
 
+\begin_layout Definition
+Organización.
+ 
+\end_layout
+
 \begin_layout Standard
-Organización: Es un sistema de actividades conscientemente coordinadas formado
- por dos o más personas; la cooperación entre ellas es esencial para la
- existencia de la organización.
+Es un sistema de actividades conscientemente coordinadas formado por dos
+ o más personas; la cooperación entre ellas es esencial para la existencia
+ de la organización.
  Una organización sólo existe cuando hay personas capaces de comunicarse
  y que están dispuestas a actuar conjuntamente para obtener un objetivo
  común.
@@ -397,10 +402,42 @@ Bibliografía.
 Bibliografía.
 \end_layout
 
-\begin_layout Bibliography
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-key "key-1"
+\begin_layout Itemize
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://es.wikipedia.org/wiki/Teor%C3%ADa_X_y_Teor%C3%ADa_Y
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://es.wikipedia.org/wiki/Algoritmos_de_b%C3%BAsqueda_en_grafos
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://es.wikipedia.org/wiki/K-means
+\end_layout
 
 \end_inset
 

@@ -402,14 +402,16 @@ Bibliografía.
 Bibliografía.
 \end_layout
 
-\begin_layout Bibliography
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-key "key-1"
+\begin_layout Itemize
+http://es.wikipedia.org/wiki/Teor%C3%ADa_X_y_Teor%C3%ADa_Y
+\end_layout
 
-\end_inset
+\begin_layout Itemize
+http://es.wikipedia.org/wiki/Algoritmos_de_b%C3%BAsqueda_en_grafos
+\end_layout
 
-
+\begin_layout Itemize
+http://es.wikipedia.org/wiki/K-means
 \end_layout
 
 \begin_layout EndFrame
