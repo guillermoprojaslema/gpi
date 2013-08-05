@@ -159,10 +159,15 @@ La organización.
 Organización.
 \end_layout
 
-\begin_layout Standard
-Organización: Es un sistema de actividades conscientemente coordinadas formado
- por dos o más personas; la cooperación entre ellas es esencial para la
- existencia de la organización.
+\begin_layout Definition
+Organización.
+ 
+\end_layout
+
+\begin_layout Definition
+Es un sistema de actividades conscientemente coordinadas formado por dos
+ o más personas; la cooperación entre ellas es esencial para la existencia
+ de la organización.
  Una organización sólo existe cuando hay personas capaces de comunicarse
  y que están dispuestas a actuar conjuntamente para obtener un objetivo
  común.
@@ -317,7 +322,13 @@ Título.
 \end_layout
 
 \begin_layout Standard
-
+En este algoritmo primeramente tomamos a las personas y las agrupamos en
+ grupos de tipo X/Y y en grupos P/T según como hallan respondido a las preguntas
+ especificas respecto a este tema, obteniendo así dos grupos, uno con los
+ resultados X/Y y otro de tipo P/T.
+ Finalmente realizamos un cruzamiento de datos con los dos grupos obtenidos
+ anteriormente resultando así un solo diagrama que separa a las personas
+ en cuatro grupos distintos (XP, XT, YP,YT).
 \end_layout
 
 \begin_layout Standard

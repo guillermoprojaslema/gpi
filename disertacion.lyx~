@@ -156,21 +156,23 @@ La organización.
 \end_layout
 
 \begin_layout BeginFrame
-Título.
+Organización.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Explica con BUENA ORTOGRAFÍA, como se compone una organización y alguna
- foto
-\end_layout
-
-\end_inset
-
-
+Organización: Es un sistema de actividades conscientemente coordinadas formado
+ por dos o más personas; la cooperación entre ellas es esencial para la
+ existencia de la organización.
+ Una organización sólo existe cuando hay personas capaces de comunicarse
+ y que están dispuestas a actuar conjuntamente para obtener un objetivo
+ común.
+ Es un conjunto de cargos con reglas y normas de comportamiento que han
+ de respetar todos sus miembros, y así generar el medio que permite la acción
+ de una empresa.
+ La organización es el acto de disponer y coordinar los recursos disponibles
+ (materiales, humanos y financieros).
+ Funciona mediante normas y bases de datos que han sido dispuestas para
+ estos propósitos.
 \end_layout
 
 \begin_layout EndFrame
@@ -315,6 +317,16 @@ Título.
 \end_layout
 
 \begin_layout Standard
+En este algoritmo primeramente tomamos a las personas y las agrupamos en
+ grupos de tipo X/Y y en grupos P/T según como hallan respondido a las preguntas
+ especificas respecto a este tema, obteniendo así dos grupos, uno con los
+ resultados X/Y y otro de tipo P/T.
+ Finalmente realizamos un cruzamiento de datos con los dos grupos obtenidos
+ anteriormente resultando así un solo diagrama que separa a las personas
+ en cuatro grupos distintos (XP, XT, YP,YT).
+\end_layout
+
+\begin_layout Standard
 \begin_inset Note Note
 status open
 
@@ -336,7 +348,7 @@ Resultados
 \end_layout
 
 \begin_layout BeginFrame
-Título.
+Resultados.
 \end_layout
 
 \begin_layout Standard
@@ -356,16 +368,21 @@ Fotos de los resultados
 
 \end_layout
 
-\begin_layout BeginFrame
-
-\end_layout
-
 \begin_layout Section
 Conclusiones.
 \end_layout
 
 \begin_layout BeginFrame
 Conclusiones.
+\end_layout
+
+\begin_layout Standard
+En conclusión podemos decir que con el algoritmo podemos ver claramente
+ cuales son los grandes rasgos de las personas que contestaron aun si algunas
+ de estas no respondieron correctamente, debido a que con este algoritmo
+ las personas que si respondieron correctamente anulan las respuestas incorrecta
+s así pudiendo poder ubicar las personas correctamente en sus grupos correspondi
+entes.
 \end_layout
 
 \begin_layout EndFrame
